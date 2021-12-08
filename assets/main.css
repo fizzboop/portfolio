@@ -23,7 +23,8 @@ html {
 
 .heading,
 .body,
-.link {
+.link,
+.disclaimer {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
@@ -93,6 +94,16 @@ html {
   .link {
     font-size: 1.75rem;
   }
+}
+
+.disclaimer {
+  font-size: 1.025rem;
+  margin: 5rem 0 1rem 0;
+}
+
+.disclaimer-link {
+  color: #22333B;
+  text-decoration-style: dashed;
 }
 
 .hidden {
